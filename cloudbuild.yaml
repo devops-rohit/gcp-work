@@ -1,0 +1,10 @@
+steps:
+#install dependencies
+- name: node
+  entrypoint: npm
+  args: ['install']
+
+#run test
+-  name: node
+   entrypoint: npm
+   args: ['test']
