@@ -5,6 +5,6 @@ steps:
   args: ['install']
 
 #run test
--  name: node
-   entrypoint: npm
-   args: ['test']
+#-  name: node
+#   entrypoint: npm
+#   args: ['test']
